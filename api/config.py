@@ -5,7 +5,7 @@ class Config:
 
 
 class TestConfig(Config):
-	SQLALCHEMY_DATABASE_URI = "mysql+pymysql://test_user:Sql_-132442@127.0.0.1:3306/test"
+	SQLALCHEMY_DATABASE_URI = "mysql+pymysql://username:password@host:port/dbname"
 	JWT_SECRET_KEY = "faf3t22g2"
 
 
